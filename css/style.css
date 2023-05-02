@@ -439,6 +439,7 @@ fill: currentColor;
 .social-list-footer {
 display: flex;
 gap: 16px;
+margin-top: 16px;
 }
 
 .link-footer {
