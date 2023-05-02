@@ -14,6 +14,7 @@ body {
 }
 .heder-style {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 h1,h2,h3 {
@@ -185,6 +186,7 @@ align-items: center;
   line-height: 1.1;
   color: var(--third-color);
   width: 264px;
+  margin-bottom: 16px;
 }
 
 
@@ -319,10 +321,10 @@ background-color: #2e2f42;
   margin-bottom: 8px;
 }
 .work-position {
-  padding-top: 32px;
   margin-bottom: 32px;
   margin-right: 16px;
   margin-left: 16px;
+  padding: 32px 0;
 }
 
 .subtitle-about-work {
@@ -410,7 +412,8 @@ fill: rgba(244, 244, 253, 1);
   width: 264px;
   height: 112px;
   background-color: rgba(244, 244, 253, 1);
-  border-radius: 4%;
+  border-radius:4px;
+  margin-bottom: 8px;
 }
 
 .partner-list {
@@ -439,6 +442,7 @@ fill: rgba(244, 244, 253, 1);
 .footer-section {
   display: flex;
   gap: 120px;
+  align-items: baseline;
 }
 .social-list-footer {
 display: flex;
@@ -465,7 +469,7 @@ gap: 16px;
   justify-content: center;
   align-items: center;
 fill: rgba(244, 244, 253, 1);
-background-color: rgba(77, 90, 229, 1);
+background-color: #4d5ae5;
 width: 40px;
 height: 40px;
 border-radius: 50%;
@@ -473,5 +477,23 @@ border-radius: 50%;
 
 .social-list-footer:hover .social-link-footer,
 .social-list-footer:focus .social-link-footer {
-  background-color: rgba(49, 208, 170, 1);
+  background-color: #31d0aa;
+}
+
+.left-footer {
+  margin-right: 120px;
+}
+
+.links-portfolio {
+  display: block;
+}
+
+.links-portfolio:hover,
+.links-portfolio:focus {
+  0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.custumers-title {
+  line-height: 1.1
 }
