@@ -434,7 +434,6 @@ fill: currentColor;
 }
 .footer-section {
   display: flex;
-  gap: 120px;
   align-items: baseline;
 }
 .social-list-footer {
@@ -446,11 +445,6 @@ gap: 16px;
   width: 40px;
   height: 40px;
 }
-/* .footer-social {
-  padding-top: 100px;
-  padding-right: 692px;
-  padding-bottom: 132px;
-} */
 .social-link-footer {
   display: flex;
   justify-content: center;
@@ -510,11 +504,11 @@ border-radius: 50%;
   margin-bottom: 16px;
 }
 .social-text {
-  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #FFFFFF;
+  margin-bottom: 16px;
 }
 
