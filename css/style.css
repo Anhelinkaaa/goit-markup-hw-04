@@ -439,7 +439,6 @@ fill: currentColor;
 .social-list-footer {
 display: flex;
 gap: 16px;
-margin-top: 16px;
 }
 
 .link-footer {
@@ -510,6 +509,7 @@ border-radius: 50%;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #FFFFFF;
+  margin: 0;
   margin-bottom: 16px;
 }
 
