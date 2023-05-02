@@ -502,7 +502,7 @@ border-radius: 50%;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #FFFFFF;
   margin-bottom: 16px;
@@ -514,7 +514,4 @@ border-radius: 50%;
   color: var(--third-color);
   width: 264px;
   margin-bottom: 16px;
-}
-.link-footer {
-
 }
