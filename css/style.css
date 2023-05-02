@@ -439,8 +439,6 @@ fill: currentColor;
 }
 .social-list-footer {
 display: flex;
-justify-self: center;
-align-items: center;
 gap: 16px;
 }
 
